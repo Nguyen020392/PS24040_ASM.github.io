@@ -1,0 +1,109 @@
+body{
+    background-color: #13131a;
+    font-family: Arial;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    max-width: 960px;
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 18px 20px;
+    text-align: left;
+   
+}
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: rgb(39, 39, 39);
+    padding: 10px 0px;
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+#main-menu ul.sub-menu a{
+    padding: 5px 10px;
+    border-bottom: 1px solid;
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu ul.sub-menu li{
+    border: none;
+}
+#main-menu ul.sub-menu li:hover a{
+    border: rgb(255, 255, 255);
+}
+#main-menu li:hover ul.sub-menu{
+    display: block;
+
+}
+.header{
+    background-color: rgb(60, 57, 57);
+}
+.card h2{
+    font-size: large;
+    color: rgb(245, 245, 245);
+}
+.card h1{
+    color: #d3ad7f;
+}
+h4{
+    font-size: 15px;
+    color : rgb(245, 245, 245);
+}
+p{
+    font-size: 15px;
+    color : rgb(245, 245, 245);
+}
+ol{
+    color: aliceblue;
+}
+.card h{
+    font-size: 20px;
+    color: #d3ad7f;
+}
+.letfcolum{
+    float: left;
+     width: 100%;
+}
+.row .letfcolum .card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
+.row .letfcolum .card iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 833px;
+    height: 398px;
+}
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: rgb(43, 42, 42);
+    margin-top: 10px;
+}
+.footer .credit span{
+    color:#d3ad7f;
+}
+.footer .links a:hover{
+    color: #d3ad7f;
+}
